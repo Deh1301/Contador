@@ -1,0 +1,29 @@
+body{
+    
+    border-top: 20px solid black;
+    margin-top: 50px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.texto{
+    transition: 1s;
+    max-width: 300px;
+    width: 400px;
+    padding: -100px;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+@keyframes rotacao {
+    0%{rotate: 0deg;}
+    100%{rotate: 100deg;}
+}
